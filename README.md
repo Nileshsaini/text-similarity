@@ -9,3 +9,7 @@ In each row of the included datasets(train.csv and test.csv), products X(descrip
 <b>Dataset info</b>:
 
 <b>Train</b> - description_x, description_y, ticker_x, ticker_y, same_security. <b>Test</b> - description_x, description_y, same_security(to be predicted)
+
+<b>My Approach</b>:
+
+I have used n-gram analysis for feature extraction and the model I have used is DecisionTreeClassifier. I got the accuracy of 0.74.
